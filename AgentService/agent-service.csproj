@@ -7,4 +7,9 @@
     <RootNamespace>agent_service</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.Agents.Persistent" Version="1.0.0" />
+    <PackageReference Include="Azure.Identity" Version="1.14.0" />
+  </ItemGroup>
+
 </Project>
